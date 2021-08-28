@@ -1,0 +1,34 @@
+create a array of objects with food data
+with properties (name,price,quantity)
+
+and display it using a for loop in the console
+
+
+Answer:
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  
+    <script>
+  	let restaurant={
+	foodname:"Pizza",
+	price:250,
+	qty:5
+    }
+
+    let hotel={
+	foodname:"Dosa",
+	price:75,
+	qty:2
+    }
+
+for(let i=0;i<restaurant.length;i++)
+{
+	console.log(restaurant[i].qty);
+}
+</script>
+</body>
+</html>
